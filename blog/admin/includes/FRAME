@@ -1,0 +1,22 @@
+<?php
+// starting the page	
+ include '..\includes\admin_frame.php';
+
+?>
+
+<?php	
+// sql connector
+include '../../global/includes/sql_connect.php' 
+
+?>
+
+
+
+
+
+
+
+<?php
+// closing the page
+	include '..\includes\admin_frame_close.php';
+?>

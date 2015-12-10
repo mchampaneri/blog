@@ -1,0 +1,92 @@
+.sidebar{
+	position: absolute;
+	top:0;
+	left: 0;
+	padding-top: 100px;
+	min-height: 100%;
+	width: 150px;
+	font-size: 20px;
+	background-color: #777;
+	float: left;
+	margin: 0;
+	z-index:-1;
+}
+
+.sidebar ul{
+	list-style: none;
+	opacity: 1;
+	margin: 0;
+	padding: 0;
+}
+
+.sidebar ul li{
+	display: block;
+	margin: 3px;
+	background-color: #666;
+	opacity: 1;
+	color:white;
+}
+
+.admin_page{
+	float: right;
+	margin-left: 120px;
+	padding: 0 auto;
+	padding: 20px;
+
+}
+
+.admin_page .content{
+	width: 250px;
+	height: 150px;
+	background-color: #212;
+	margin: 3px;
+	display: inline-block;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+}
+
+
+.list{
+
+	overflow-y:scroll;
+	max-height: 100%;
+}
+
+
+
+.new_post{
+	width: auto;
+	margin: 0 auto;
+	padding: 8px;
+	border: 1px solid black;
+}
+
+.edit{
+	background-color: #040;
+
+}
+
+
+.remove{
+	background-color:#400;
+}
+
+.sidebar a{
+	text-decoration: none;
+	color: white;
+}
+
+.sidebar li:hover{
+	background-color: #888;
+}
+
+input.change{
+	background-color: #070;
+
+}
+
+input.delete{
+	background: #700;
+}

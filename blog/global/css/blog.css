@@ -1,0 +1,187 @@
+body{
+	background: rgba(200,200,200,0.4) url('http://localhost/blog/images/bgp.jpg');
+}
+
+.menu-top {
+	text-decoration: none;
+
+}
+
+
+.menu-top{
+	font-size:20px;
+    font-family: 'Dosis', Verdana, Arial, Helvetica, sans-serif;
+	background-color: rgba(230,115,0,0.9);
+	height: 50px;
+}
+
+.menu-top  h2{
+	font-family: roboto;
+	padding: 0px;
+	margin: 0px;
+	font-size: 30px;
+	color: white;
+}
+
+ul.menu-top-left{
+	float: left;
+	list-style: none;
+	margin: 3px;
+	padding: 0px;
+}
+
+ul.menu-top-right{
+	float: right;
+	list-style: none;
+	margin: 3px;
+}
+
+
+.menu-top li{
+	display: inline-block;
+	padding: 0px;
+}
+
+.menu-top li:hover{
+	background-color: #444;
+}
+
+.title_block{
+	font-family: roboto;
+
+}
+.title_block h1{
+	margin:0 auto;
+}
+
+
+
+.post_results{
+	font-family: Oswald;
+	font-size: 20px;
+	color: #162534;
+
+}
+
+.post_results  .content{
+	width: 350px;
+	height: 300px;
+	font-family: Oswald;
+	float:left;
+	text-align: center;
+	margin: 10px;
+	background-color: rgba(300,300,300,0.6);
+	padding: 0
+
+}
+
+.post_results  .content a{
+	text-decoration:  none;
+	color :#666;
+
+}
+
+.post_results  .content img{
+	height: 200px;
+	width: 350px;
+	margin: 0;
+	padding: 0;
+}
+
+.box{
+	width: 300px;
+	height: 300px;
+	margin: auto;
+	margin-top: 10%;
+	padding: 20px;
+	background-color: #4682B4;
+	border: 2px solid #2A4E6C;
+	border-radius: 2px;
+
+}
+
+.logo{
+	text-align: center;
+	margin-bottom: 10px;
+	color:#ccc; 
+}
+
+input{
+	margin: 2px;
+}
+
+.post_result .single img{
+	width:800px;
+	margin: 0 auto;
+}
+.post_result .single{
+	width:800px;
+	margin: 0 auto;
+
+}
+
+.post_result .content {
+	color: white;
+	text-decoration: none;
+	font-family: 'Dosis', Verdana, Arial, Helvetica, sans-serif;
+
+}
+
+.jumbotron{
+	background-color: rgba(235,147,57,0.9);
+}
+
+
+
+ul.menu-top-left a{
+	margin-left: 20px;
+	color: white;
+	text-decoration: none;
+}
+
+ul.menu-top-left  a li:hover{
+	background-color: #ed9d4c;
+	border-radius:5px;
+}
+
+ul.menu-top-left a:active{
+	background-color: #ed9d4c;
+}
+
+ul.menu-top-right a{
+	margin-left: 20px;
+	color: white;
+	text-decoration: none;
+}
+
+ul.menu-top-right  a li:hover{
+	background-color: #ed9d4c;
+	border-radius:5px;
+}
+
+ul.menu-top-right a:active{
+	background-color: #ed9d4c;
+}
+
+.footer{
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 40px;
+	border-top: 2px solid #ccc;
+	font-family: 'Segoe Script';
+	font-size: 16px;
+	text-align: center;
+}
+
+
+.active{
+	background-color: #ed9d4c;
+	border-radius: 10px;
+}
+
+
+.post_results .container   {
+
+  	/*add css for the obtainer result*/
+
+}
